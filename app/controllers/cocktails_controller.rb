@@ -34,3 +34,4 @@ class CocktailsController < ApplicationController
     params.require(:cocktail).permit(:name, :url)
   end
 end
+
